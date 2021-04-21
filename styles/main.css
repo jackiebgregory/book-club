@@ -2,4 +2,14 @@
 @import './blake.css';
 @import './colin.css';
 @import './jackie.css';
-@import './melody.css'
+@import './melody.css';
+
+a {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20em;
+
+
+}
+
