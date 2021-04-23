@@ -11,85 +11,126 @@ a {
     width: 20em;
   }
 
-  /* title logo and top join button */
-  img {
-    width: 20%;
-    height: 10%;
-    position: static;
-
-  }
-  .top-button {
-    background-color: white;
-    padding: .1px 30px;
-    border-color: black;
-    cursor: pointer;
-    font-family:;
+/* positioning for header image */
+.imagelogo {
+  width: 20%;
+  height: 10%;
+  position: relative;
+  top: -230px;
 }
 
+.top-button {
+  background-color: white;
+  padding: .1px 30px;
+  border-color: black;
+  cursor: pointer;
+  position: relative;
+  top: -450px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+/* top botton changes color when mouse hovers */
 .top-button:hover {
-    background: green;
+  background: rgb(235, 199, 39);
+  color: white;
 }
+
+.line-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50px;
+}
+
+.left-book-image {
+  display: flex;
+  float: left;
+  position: relative;
+  top: -2px;
+  left: -20px;
+  margin: 0px, 20px;
+}
+
 /* email and name box, bottom button, and pop up message */
-  .join {
-    border-style: solid dotted;
-    border-color: rgb(185, 185, 235);
-    border-width: 5px;
-    padding-bottom: 20px;
-    width: 35%;
+.info-box {
+  border-style: double dashed;
+  border-color: rgb(66, 88, 146);
+  border-width: 8px;
+  padding-bottom: 20px;
+  width: 40%;
+}
 
-  }
+.name-box {
+  width: 60%;
+}
 
-  .name-box {
-    width: 60%;
-  }
+.email-box {
+  width: 60%;
+}
 
-  .email-box {
-    width: 60%;
-  }
+/* bottom join button */
+.button2 {
+  font-size: 1em;
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
 
-  .button2 {
-    font-size: 1em;
-    padding: 10px;
-    color: black;
-    border: 2px solid black;
-    border-radius: 25px/20px;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
-  }
-  .button2:hover {
-    background: rgb(32, 143, 247);
-  }
+.button2:hover {
+  background: rgb(100, 121, 180);
+}
 
-  .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background:beige;
-    transition: opacity;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
+.right-book-image {
+display: flex;
+float: right;
+position: relative;
+top: -235px;
+right: -430px;
+}
 
-  .popup {
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    text-align: center;
-    border-radius: 5px;
-    width: 30%;
+/* message box pop up */
+.overlay {
+  position: fixed;
+  top: 90px;
+  bottom: 410px;
+  left: 410px;
+  right: 410px;
+  border-radius: 20px;
+  background:rgb(72, 91, 143);
+  color: white;
+  font-family: "courier new";
+  visibility: hidden;
+  opacity: 1;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.box {
+  width: 70%;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all;
+  text-decoration: none;
+}
+
+.footer {
+  border-style: solid;
+  position: relative;
+  top: 60px;
+  margin: 60px 0px;
+ }
 
 
-  }
-  .popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: #333;
-  }
+
+
+
 
