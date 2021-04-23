@@ -4,6 +4,12 @@
 @import './jackie.css';
 @import './melody.css';
 
+/* Dark Mode Toggle Button */
+.ToggleTheme {
+  display: flex;
+}
+/* end */
+
 a {
     display: flex;
     flex-direction: column;

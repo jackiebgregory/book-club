@@ -7,7 +7,37 @@
     <title>NSS Book Club</title>
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
-  <body>
+  <!-- dark mode code -->
+  <!-- add <script> contents and <button>
+  right underneath your <body> tag in your name.html -->
+  <body class="body">
+      <script>
+          // toggles theme
+          function toggleTheme() {
+              document.body.classList.toggle("light");
+              document.body.classList.toggle("dark");
+      
+              localStorage.setItem(
+                  "colorTheme",
+                  document.body.classList.contains("dark") ? "dark" : "light"
+              );
+          }
+      
+          // loads and stores theme
+          if (localStorage.getItem("colorTheme") === "dark") {
+              toggleTheme();
+          } else if (
+              localStorage.getItem("colorTheme") !== "light" &&
+              window.matchMedia &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches
+          ) {
+              toggleTheme();
+          }
+      </script>
+      
+    <button onclick="toggleTheme()">Dark Mode</button>
+    <!-- dark mode code -->
+      
     <header class="header">
     <center>
       <img src="/styles/images/bookclublogo.png" style="transform:rotate(90deg);">
