@@ -1,3 +1,135 @@
 
+.blakeHeader {
+    text-align: center;
+    color: darkgreen;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.bookTitle {
+    font-size: 3em;
+    font-style: italic;
+}
+
+.bookDescription {
+    justify-content: flex-start;
+    text-align: center;
+    border: 1em darkgreen;
+    border-style: ridge;
+    background-color: darkseagreen;
+    margin: 2em;
+    padding: 1em;
+}
+
+.synopsisTitle {
+    text-align: center;
+}
+
+.moreBooks {
+    cursor: pointer;
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      outline: none;
+      color: #fff;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      justify-content: space-between;
+      margin: 10px;
+}
+
+.bookThoughts {
+    display: flex;
+    flex-direction: column;
+    border: 1em darkgreen;
+    border-style: ridge;
+    margin: 2em;
+    padding: 1em;
+    background-color: darkseagreen;
+
+}
 
 
+.thoughtsTitle {
+    text-align: center;
+
+}
+
+
+.join {
+    border-style: solid dotted;
+    border-color: rgb(185, 185, 235);
+    border-width: 5px;
+    padding-bottom: 20px;
+    width: 35%;
+
+  }
+
+  .name-box {
+    width: 60%;
+  }
+
+  .email-box {
+    width: 60%;
+  }
+
+  .button2 {
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px/20px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button2:hover {
+    background: rgb(32, 143, 247);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:beige;
+    transition: opacity;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+
+
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #333;
+  }
+  .blakeFooter {
+      display: flex;
+      flex-direction: column;
+      border: 1em darkgreen;
+      border-style: groove;
+      padding: 1em;
+      margin: 2em;
+      background-color: darkseagreen;
+
+  }
