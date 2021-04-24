@@ -1,4 +1,20 @@
-.body {
+/* dark mode */
+/*.body {
     background-color: #181a1b;
     color: white;
-}
+}*/
+
+/* Add this to your name.css file */
+/* Light mode CSS */
+:root {
+    color: #202020;
+    background: #fafafa;
+  }
+  
+  /* Dark mode CSS */
+  body.dark {
+    color: #fafafa;
+    background: rgb(24, 26, 27);
+  }
+  
+/* end */

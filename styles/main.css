@@ -1,9 +1,5 @@
 @import './darkmode.css';
-/*@import './blake.css';
-@import './colin.css';
-@import './jackie.css';
-@import './melody.css';*/
-
+/* do I actually need to these imports in main? I don't know */
 /* aside buttons below */
 a {
     display: flex;
