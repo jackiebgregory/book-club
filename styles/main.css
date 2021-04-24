@@ -1,10 +1,14 @@
 @import './darkmode.css';
 /* do I actually need to these imports in main? I don't know */
+<<<<<<< HEAD
 /* @import './blake.css';
 @import './colin.css';
 @import './jackie.css';
 @import './melody.css'; */
 
+=======
+/* aside buttons below */
+>>>>>>> 1007f5a97c15fbc1cb7b3df682d99be048443eb9
 a {
     display: flex;
     flex-direction: column;
