@@ -17,15 +17,38 @@
     background: var(--background);
   } 
 
-.body {
-    
+.colin-author {
+  display: flex;
+  justify-content: center;
 }
 
-.header {}
+.colin_book-title {
+  display: flex;
+  justify-content: center;
+}
 
-.book-title {
-    display: flex;
-    justify-content: center;
+.colin-synopsis{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  border: rgb(248, 228, 174) solid;
+  font-size: medium;
+}
+
+.colin_book-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.colin-review {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  font-size: large;
 }
 
 /* join box */

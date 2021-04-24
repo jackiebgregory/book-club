@@ -9,7 +9,7 @@
   </head>
   <body class="body">
     <script>
-      // A function for toggling the theme
+      // toggles dark mode
       function toggleTheme() {
           document.body.classList.toggle("light");
           document.body.classList.toggle("dark");
@@ -20,7 +20,7 @@
           );
       }
   
-      // Initialize the theme
+      // loads and stores preferences on browser
       if (localStorage.getItem("colorTheme") === "dark") {
           toggleTheme();
       } else if (
@@ -34,9 +34,18 @@
   <!-- dark mode button -->
 <button onclick="toggleTheme()">Dark Mode</button>
 <!-- end -->
-    <header class="header"><h1 class="book-title">The Old Man and the Sea</h1></header>
-    <button class="join_button"></button>
-    <section class="main"></section>
+    <header class="header"><h1 class="colin_book-title">The Old Man and the Sea</h1></header>
+    <section class="main">
+      <article class="colin-author"><h3>Book by Ernest Hemingway, Review by Colin Chevalier</h3></article>
+      <article class="colin-synopsis"><i>The Old Man and the Sea</i>&nbspis a short novel about an aging Cuban fisherman named Santiago, and his struggles with aging described through his pursuit of a massive marlin.<br>
+      Through his struggles of trying to reel in the mosnter fish, he battles with ocean life, nature, and himself.</article>
+      <br>
+      <article class="colin_book-cover"><img src="https://upload.wikimedia.org/wikipedia/en/7/73/Oldmansea.jpg" alt="The Old Man and the Sea"></article>
+      <article class="colin-review">This is one of my favorite books, and my most frequently recommended book when people tell me they would like to get back into reading.<br>
+      It is a short novel at only 127 pages, and easily digestable with points to think on long after one has finished reading it. I enjoy the symbolism of Santiago's age being <br>
+      both a benefit and hinderance to his pursuit of the marlin- his aging body makes the physical strains more difficult but his wisdom and experience help him. <br>
+      To me, it is his last act of youth.</article>
+    </section>
     <aside class="aside"></aside>
     <center>
       <section class="join" id="join">
