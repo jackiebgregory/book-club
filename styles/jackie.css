@@ -117,3 +117,49 @@ img {
   margin: 1em;
   padding: 1em;
 }
+
+.join {
+  border-style: solid dotted;
+  border-color: rgb(185, 185, 235);
+  border-width: 5px;
+  padding-bottom: 20px;
+  width: 35%;
+
+}
+
+.name-box {
+  width: 60%;
+}
+
+.email-box {
+  width: 60%;
+}
+
+.button2 {
+  font-size: 1em;
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 25px/20px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button2:hover {
+  background: rgb(32, 143, 247);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:beige;
+  transition: opacity;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
