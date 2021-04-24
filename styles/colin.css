@@ -12,11 +12,7 @@
     background: rgb(24, 26, 27)
   }
   
-  body {
-    color: var(--text);
-    background: var(--background);
-  } 
-
+ 
 .colin-author {
   display: flex;
   justify-content: center;
