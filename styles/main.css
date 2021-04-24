@@ -32,8 +32,7 @@ a {
 
 /* top botton changes color when mouse hovers */
 .top-button:hover {
-  background: rgb(235, 199, 39);
-  color: white;
+  background: #ebc727;
 }
 
 .line-image {
@@ -55,10 +54,11 @@ a {
 /* email and name box, bottom button, and pop up message */
 .info-box {
   border-style: double dashed;
-  border-color: rgb(66, 88, 146);
+  border-color: #425892;
   border-width: 8px;
   padding-bottom: 20px;
   width: 40%;
+  font-family: times;
 }
 
 .name-box {
@@ -72,15 +72,16 @@ a {
 /* bottom join button */
 .button2 {
   font-size: 1em;
-  padding: 10px;
   color: black;
   border: 2px solid black;
+  border-radius: 20px;
+  width: 70px;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 
 .button2:hover {
-  background: rgb(100, 121, 180);
+  background: #6479b4;
 }
 
 .right-book-image {
@@ -99,7 +100,7 @@ right: -430px;
   left: 410px;
   right: 410px;
   border-radius: 20px;
-  background:rgb(72, 91, 143);
+  background:#485b8f;
   color: white;
   font-family: "courier new";
   visibility: hidden;
@@ -116,17 +117,22 @@ right: -430px;
 
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all;
+  top: 10px;
+  left: 5px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
   text-decoration: none;
+  color: white;
 }
 
+
 .footer {
-  border-style: solid;
   position: relative;
-  top: 60px;
-  margin: 60px 0px;
+  top: 100px;px;
+  font-family: times;
+  color: #486b8f;
+  justify-content: space-evenly;
  }
 
 
