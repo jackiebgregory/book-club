@@ -4,11 +4,36 @@
 @import './jackie.css';
 @import './melody.css';
 
+/* aside buttons below */
 a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 20em;
+    color: green;
+
+  }
+  .aside {
+      display: flex;
+      flex-direction:column;
+      float: right;
+      justify-content: space-around;
+      
+  }
+
+  .asidebutton {
+      cursor: pointer;
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      outline: none;
+      color: #fff;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      justify-content: space-between;
+      margin: 10px;
   }
 
   /* title logo and top join button */
