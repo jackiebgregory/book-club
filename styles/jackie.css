@@ -1,29 +1,27 @@
 .header {
   display: flex;
   align-items: center;
-  background-color: lightskyblue;
+  background-color: #204161;
   font-family:Verdana, Geneva, Tahoma, sans-serif
-  border: 3px dotted #1761A0;
-}
-
-.logo {
-  
+  border: 3px solid #1761A0;
+  padding: 1em;
+  margin: 1em;
 }
 
 .title {
   display: flex;
   margin: auto;
   padding: 1em;
-  border: 3px dotted blue;
-  color:red;
+  border: 3px solid black;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-img {
+/* img {
   height: 15em;
   width: 15em;
   border-radius: 8px;
-}
+} */
 
 .main {
   display:flex;
@@ -34,27 +32,27 @@ img {
 .right {
   flex: 1;
   margin: 1em;
-  border: #1761A0 3px dotted;
+  border: black 3px dotted;
 }
 
 .left {
   flex: 3;
   margin: 1em;
-  border: lightblue 3px dotted;
+  border: black 3px solid;
 }
 
-.header--care__tips {
+.header--book__tips {
   margin: 1em;
   text-align: center;
-  border: lightblue 3px dotted;
+  border: black 3px solid;
 }
 
 .footer {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif
-  border: 3px dotted lightblue;
+  border: 3px dotted black;
 }
-.fishes {
+.jackie-books {
   display: flex;
   justify-content: center;
 }
@@ -64,12 +62,8 @@ img {
   text-align: center;
 }
 
-/* .fish-photos {
-  border-radius: 50%;
-} */
-
-.fish {
-  border: 3px dotted lightblue;
+.jackie-book {
+  border: 3px solid black;
   margin: 1em;
   padding: 1em;
   text-align: center;
@@ -81,10 +75,10 @@ img {
 }
 
 .quotes--block {
-  background-color: lightslategrey;
+  background-color: #204161;
   margin: 1em;
   padding: 1em;
-  border: 3px dotted black;
+  border: 3px solid black;
 }
 .section--quotes {
   text-align: center;
@@ -93,7 +87,7 @@ img {
 }
 
 .quotes {
-  border: 3px dotted blue;
+  border: 3px dotted black;
   margin: 1em;
   padding: 1em;
   font-style: italic;
@@ -113,7 +107,7 @@ img {
 }
 
 .books {
-  border: 3px dotted lightblue;
+  border: 3px dotted black;
   margin: 1em;
   padding: 1em;
 }
@@ -124,7 +118,6 @@ img {
   border-width: 5px;
   padding-bottom: 20px;
   width: 35%;
-
 }
 
 .name-box {

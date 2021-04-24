@@ -1,9 +1,9 @@
 @import './darkmode.css';
 /* do I actually need to these imports in main? I don't know */
-@import './blake.css';
+/* @import './blake.css';
 @import './colin.css';
 @import './jackie.css';
-@import './melody.css';
+@import './melody.css'; */
 
 a {
     display: flex;
@@ -159,9 +159,3 @@ right: -430px;
   color: #486b8f;
   justify-content: space-evenly;
  }
-
-
-
-
-
-
