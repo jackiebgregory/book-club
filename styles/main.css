@@ -5,6 +5,7 @@
 @import './jackie.css';
 @import './melody.css';
 
+/* aside buttons below */
 a {
     display: flex;
     flex-direction: column;
