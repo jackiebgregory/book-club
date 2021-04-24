@@ -1,0 +1,32 @@
+@import './darkmode.css';
+@import './colin.css';
+@import './jackie.css';
+@import './melody.css';
+
+.melbody {
+  border-style: solid;
+}
+
+.melheader {
+  font-family: "courier new";
+  color: green;
+}
+.melh1 {
+  float: right;
+  position: relative;
+  font-size: 60px;
+  top: 40px;
+  right: 300px;
+}
+
+.melh4 {
+  float: right;
+  position: relative;
+  top: -190px;
+  right: 390px;
+}
+.melmain {
+  padding-left: 23%;
+  padding-right: 23%;
+  font-family: "courier new";
+}

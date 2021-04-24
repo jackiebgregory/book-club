@@ -16,13 +16,13 @@
           function toggleTheme() {
               document.body.classList.toggle("light");
               document.body.classList.toggle("dark");
-      
+
               localStorage.setItem(
                   "colorTheme",
                   document.body.classList.contains("dark") ? "dark" : "light"
               );
           }
-      
+
           // loads and stores
           if (localStorage.getItem("colorTheme") === "dark") {
               toggleTheme();
@@ -34,10 +34,10 @@
               toggleTheme();
           }
       </script>
-      
+
     <button onclick="toggleTheme()">Dark Mode</button>
     <!-- dark mode code -->
-      
+
     <header class="header">
       <center>
       <img src="/styles/images/bookclublogo.png" class="imagelogo" style="transform:rotate(90deg);">
@@ -49,7 +49,7 @@
       <a href="#join">
       <a href="#info-box"><b>Join NSS BOOK CLUB Now!</b></a>
     </button>
-
+<main>
     <section class="main"></section>
     <aside class="aside">
             <a href="/html/jackie/jackie.html">
@@ -73,7 +73,7 @@
                 </button>
             </a>
     </aside>
-
+</main>
   <section class="left-book-image">
   <img src="https://i.etsystatic.com/5141572/r/il/496201/1441102600/il_1588xN.1441102600_bxsx.jpg"
   width="350" height="340">
@@ -93,20 +93,14 @@
   </section>
 
   <!--message box pop up after user submits info-->
-<div id="popup1" class="overlay">
-<div class="popup">
-		<h2>Welcome!</h2>
-		<a class="close" href="#">&times;</a>
-<div class="content">Check your email for upcoming meetings and books! &#128516 &#128214;
-</div>
-</div>
-</div>
+
 </section>
 </center>
 
     <footer class="footer"><h4 class="contact">contact information</h4>
     <p>email: nssbookclub@gmail.com</p>
     <p>address: 1728 West End Ave. Nashville, TN 37203</p></footer>
+
 
 </body>
 </html>

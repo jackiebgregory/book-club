@@ -1,9 +1,13 @@
 @import './darkmode.css';
 /* do I actually need to these imports in main? I don't know */
-@import './blake.css';
+/* @import './blake.css'; */
 @import './colin.css';
 @import './jackie.css';
 @import './melody.css';
+
+main {
+  display: flex;
+}
 
 a {
     display: flex;
@@ -18,7 +22,7 @@ a {
       flex-direction:column;
       float: right;
       justify-content: space-around;
-      
+
   }
 
   .asidebutton {
@@ -69,7 +73,7 @@ a {
 
 .left-book-image {
   display: flex;
-  float: left;
+
   position: relative;
   top: -2px;
   left: -20px;
@@ -111,7 +115,7 @@ a {
 
 .right-book-image {
 display: flex;
-float: right;
+
 position: relative;
 top: -235px;
 right: -430px;
@@ -150,7 +154,6 @@ right: -430px;
   text-decoration: none;
   color: white;
 }
-
 
 .footer {
   position: relative;
