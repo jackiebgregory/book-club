@@ -1,8 +1,15 @@
 @import './darkmode.css';
+/* do I actually need to these imports in main? I don't know */
 @import './blake.css';
 @import './colin.css';
 @import './jackie.css';
 @import './melody.css';
+
+/* Dark Mode Toggle Button */
+.ToggleTheme {
+  display: flex;
+}
+/* end */
 
 a {
     display: flex;

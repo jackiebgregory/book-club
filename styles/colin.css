@@ -1,11 +1,117 @@
-.header {
+@import './darkmode.css'
 
+/* Light mode CSS */
+:root {
+    color: #202020;
+    background: #fafafa;
+  }
+  
+  /* Dark mode CSS */
+  body.dark {
+    color: #fafafa;
+    background: rgb(24, 26, 27)
+  }
+  
+  body {
+    color: var(--text);
+    background: var(--background);
+  } 
+
+.colin-author {
+  display: flex;
+  justify-content: center;
 }
 
-.book-title {
-
+.colin_book-title {
+  display: flex;
+  justify-content: center;
 }
 
-.body {
-    
+.colin-synopsis{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  border: rgb(248, 228, 174) solid;
+  font-size: medium;
 }
+
+.colin_book-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.colin-review {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  font-size: large;
+}
+
+/* join box */
+.join {
+    border-style: solid dotted;
+    border-color: rgb(185, 185, 235);
+    border-width: 5px;
+    padding-bottom: 20px;
+    width: 35%;
+
+  }
+
+  .name-box {
+    width: 60%;
+  }
+
+  .email-box {
+    width: 60%;
+  }
+
+  .button2 {
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px/20px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button2:hover {
+    background: rgb(32, 143, 247);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:beige;
+    transition: opacity;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+
+
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #333;
+  }
+/* end join box */
