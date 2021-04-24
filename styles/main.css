@@ -1,6 +1,5 @@
 @import './darkmode.css';
 /* do I actually need to these imports in main? I don't know */
-/* aside buttons below */
 a {
     display: flex;
     flex-direction: column;
