@@ -7,17 +7,49 @@
     <title>NSS Book Club</title>
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
-  <body>
+  <!-- dark mode code -->
+  <!-- add <script> contents and <button>
+  right underneath your <body> tag in your name.html -->
+  <body class="body">
+      <script>
+          // toggles theme
+          function toggleTheme() {
+              document.body.classList.toggle("light");
+              document.body.classList.toggle("dark");
+      
+              localStorage.setItem(
+                  "colorTheme",
+                  document.body.classList.contains("dark") ? "dark" : "light"
+              );
+          }
+      
+          // loads and stores
+          if (localStorage.getItem("colorTheme") === "dark") {
+              toggleTheme();
+          } else if (
+              localStorage.getItem("colorTheme") !== "light" &&
+              window.matchMedia &&
+              window.matchMedia("(prefers-color-scheme: dark)").matches
+          ) {
+              toggleTheme();
+          }
+      </script>
+      
+    <button onclick="toggleTheme()">Dark Mode</button>
+    <!-- dark mode code -->
+      
     <header class="header">
-    <center>
-      <img src="/styles/images/bookclublogo.png" style="transform:rotate(90deg);">
-    </center>
+      <center>
+      <img src="/styles/images/bookclublogo.png" class="imagelogo" style="transform:rotate(90deg);">
+      </center>
     </header>
+  <br>
+    <center>
     <button class="top-button">
       <a href="#join">
-      <h3>Join NSS BOOK CLUB Now!</h3>
-      </a>
-      </button>
+      <a href="#info-box"><b>Join NSS BOOK CLUB Now!</b></a>
+    </button>
+
     <section class="main"></section>
     <aside class="aside">
             <a href="/html/jackie/jackie.html">
@@ -41,26 +73,42 @@
                 </button>
             </a>
     </aside>
-    <center>
-  <section class="join" id="join">
+
+  <section class="left-book-image">
+  <img src="https://i.etsystatic.com/5141572/r/il/496201/1441102600/il_1588xN.1441102600_bxsx.jpg"
+  width="350" height="340">
+  </section>
+
+  <section class="info-box" id="info-box">
     <h2>Let's read together!</h2>
-      <p>Name:</p><input class="name-box" value="">
-      <p>Email:</p><input class="email-box" value="">
-    <br>
-  <br>
-<div class="box">
-  <a class="button2" href="#popup1">Join</a>
-  </center>
+        <p>Name:</p><input class="name-box" value="">
+        <p>Email:</p><input class="email-box" value="">
+      <br>
+      <br>
+  <div class="box">
+    <a class="button2" href="#popup1">Join</a>
+  <section class="right-book-image">
+    <img src="https://i.etsystatic.com/5141572/r/il/34a115/1342854368/il_1588xN.1342854368_mwcb.jpg"
+    width="355" height="340">
+  </section>
+
+  <!--message box pop up after user submits info-->
 <div id="popup1" class="overlay">
 <div class="popup">
 		<h2>Welcome!</h2>
 		<a class="close" href="#">&times;</a>
-<div class="content">Check your email for upcoming books! &#128540;
+<div class="content">Check your email for upcoming meetings and books! &#128516 &#128214;
 </div>
 </div>
 </div>
 </section>
 </center>
-    <footer class="footer"></footer>
-  </body>
+
+    <footer class="footer"><h4 class="contact">contact information</h4>
+    <p>email: nssbookclub@gmail.com</p>
+    <p>address: 1728 West End Ave. Nashville, TN 37203</p></footer>
+
+</body>
 </html>
+
+
